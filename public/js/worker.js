@@ -24,7 +24,7 @@ self.addEventListener('message', function(e) {
     // Send location immediately when starting
     sendLocation();
     // Set up a setInterval to send location every 6 seconds
-    setInterval(sendLocation, 1800000);
+    setInterval(sendLocation, 900000);
   } else {
     console.error('Invalid location data received');
   }
