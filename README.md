@@ -26,22 +26,19 @@ The Location Tracker is a project designed to track and record the geographical 
    git clone https://github.com/Chakridhar2555/Location-Tracker.git
 
 ## Navigate to the project directory:
-2.Command:
+cd Location-Tracker
+## Install the dependencies:
+npm install
 
-```bash
-    cd Location-Tracker```
-Install the dependencies::
-```bash
- npm install```
-3.Start Command:
-```bash
-node app.js```
-4.Set up environment variables:
+## Set up environment variables:
 
-5.Create a .env file in the root directory and add the following:
-```bash
+** Create a .env file in the root directory and add the following **
 PORT=5000
-MONGO_URI=<Your MongoDB Connection String>```
+MONGO_URI=<Your MongoDB Connection String>
+
+
+## Start the application:
+node app.js
 
 ## Screenshots
 
